@@ -1,0 +1,1027 @@
+./README.md:1:# FINAL REPORT
+Binary file ./.git/objects/pack/pack-b11c1e39008790d190821a0a661b52deb94b02fc.pack matches
+./src_Original/feature/brief.cc:43:	REP(i, n) {
+./src_Original/feature/brief.cc:55:	REP(i, n) if (bits[i]) {
+./src_Original/feature/matcher.cc:46:	REP(k, l1) {
+./src_Original/feature/matcher.cc:53:		REP(kk, l2) {
+./src_Original/feature/matcher.cc:71:    REP(kk, l1) if (kk != k) {
+./src_Original/feature/matcher.cc:93:    REP(i, feat.size()) 
+./src_Original/feature/matcher.cc:102:  REP(i, (int)trees.size())
+./src_Original/feature/matcher.cc:125:  REP(i, source.size()) 
+./src_Original/feature/extrema.cc:22:	REP(i, npyramid)
+./src_Original/feature/extrema.cc:23:		REPL(j, 1, nscale - 2) {
+./src_Original/feature/extrema.cc:41:	REP(i, npyramid)
+./src_Original/feature/extrema.cc:42:		REPL(j, 1, nscale - 2) {
+./src_Original/feature/extrema.cc:186:		REPL(di, -1, 2) REPL(dj, -1, 2) {
+./src_Original/feature/extrema.cc:199:			REPL(di, -1, 2) {
+./src_Original/feature/extrema.cc:201:				REP(i, 3) {
+./src_Original/feature/extrema.cc:212:	REPL(i, 1, h - 1) REPL(j, 1, w - 1)
+./src_Original/feature/orientation.cc:71:		REP(i, ORI_HIST_BIN_NUM) {
+./src_Original/feature/orientation.cc:82:	REP(i, ORI_HIST_BIN_NUM) {
+./src_Original/feature/dog.cc:66:	REP(y, h) 
+./src_Original/feature/dog.cc:77:		REPL(x, 1, w-1) 
+./src_Original/feature/dog.cc:106:	REP(i, noctave) {
+./src_Original/feature/dog.cc:127:	REP(i, h) {
+./src_Original/feature/dog.cc:132:		REP(j, w)
+./src_Original/feature/dog.cc:144:	REP(i, noctave) {
+./src_Original/feature/dog.cc:147:		REP(j, ns - 1)
+./src_Original/feature/sift.cc:61:	REP(dy, 2) if (between(ybinf + dy, 0, DESC_HIST_WIDTH)) {
+./src_Original/feature/sift.cc:63:		REP(dx, 2) if (between(xbinf + dx, 0, DESC_HIST_WIDTH)) {
+./src_Original/feature/gaussian.hh:44:			REP(j, w){
+./src_Original/feature/gaussian.hh:47:				REP(i, h) {
+./src_Original/feature/gaussian.hh:61:				REP(i, h) {
+./src_Original/feature/gaussian.hh:71:			REP(i, h) {
+./src_Original/feature/gaussian.hh:82:				REP(j, w) {
+./src_Original/feature/gaussian.hh:99:		REP(k, nscale - 1) {
+./src_Original/feature/dist.cc:95:	REP(i, n) {
+./src_Original/main.cc:178:	REP(i, 9) homo.ptr()[i] = info.homo[i];
+./src_Original/main.cc:186:	REP(i, 9) invM.ptr()[i] = inv[i];
+./src_Original/main.cc:197:	REPL(i, 2, argc) {
+./src_Original/main.cc:211: *    REPL(i, 1, argc)
+./src_Original/main.cc:218:	REPL(i, 1, argc) imgs.emplace_back(argv[i]);
+./src_Original/main.cc:303:	REP(i, OUTSIZE) REP(j, OUTSIZE) {
+./src_Original/lib/polygon.hh:34:			REP(i, p.size()) {
+./src_Original/lib/imgio.cc:30:	REP(i, n) {
+./src_Original/lib/imgio.cc:54:	REP(i, npixel) {
+./src_Original/lib/imgio.cc:76:		REP(i, mat.rows())
+./src_Original/lib/imgio.cc:77:			REP(j, mat.cols()) {
+./src_Original/lib/imgio.cc:83:		REP(i, mat.rows())
+./src_Original/lib/imgio.cc:84:			REP(j, mat.cols()) {
+./src_Original/lib/imgio.cc:105:	REP(i, mat.rows())
+./src_Original/lib/imgio.cc:106:		REP(j, mat.cols()) {
+./src_Original/lib/utils.hh:28:#define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./src_Original/lib/utils.hh:29:#define REPL(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x < (z); x ++)
+./src_Original/lib/utils.hh:30:#define REPD(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x >= (z); x --)
+./src_Original/lib/imgproc.cc:101:		REP(i, m.height()) {
+./src_Original/lib/imgproc.cc:126:		REP(i, m.height()) {
+./src_Original/lib/imgproc.cc:186:	REP(i, n) {
+./src_Original/lib/imgproc.cc:195:	REP(i, n) {
+./src_Original/lib/imgproc.cc:207:	REP(line, h) {
+./src_Original/lib/imgproc.cc:208:		REP(k, w) {
+./src_Original/lib/imgproc.cc:214:		REP(k, w) {
+./src_Original/lib/imgproc.cc:219:		REPD(k, w - 1, 0) {
+./src_Original/lib/imgproc.cc:224:		REP(k, w)
+./src_Original/lib/imgproc.cc:230:	REP(i, ret.height()) {
+./src_Original/lib/imgproc.cc:268:	REP(i, n) {
+./src_Original/lib/imgproc.cc:278:	REP(i, 8) ret.ptr()[i] = ans[i];
+./src_Original/lib/imgproc.cc:285:	 *REP(i, n) {
+./src_Original/lib/imgproc.cc:292:	 *REP(i, 9) ret.ptr()[i] = ans(i); // ans(8);
+./src_Original/lib/imgproc.cc:305:	REP(i, n) {
+./src_Original/lib/imgproc.cc:315:	REP(i, 6) ret.ptr()[i] = ans[i];
+./src_Original/lib/imgproc.cc:335:	REP(i, n)
+./src_Original/lib/matrix.cc:29:	REP(i, m.rows()) REP(j, m.cols())
+./src_Original/lib/matrix.cc:36:	REP(i, m_rows) REP(j, m_cols)
+./src_Original/lib/matrix.cc:56:	REP(i, pixels()) res[i] = rl[i] * rr[i];
+./src_Original/lib/matrix.cc:65:	REP(i, pixels()) res[i] = rl[i] - rr[i];
+./src_Original/lib/matrix.cc:73:	REP(i, pixels()) res[i] = rl[i] + rr[i];
+./src_Original/lib/matrix.cc:96:	REP(i, m_cols) {
+./src_Original/lib/matrix.cc:129:	REP(i, m_rows)
+./src_Original/lib/matrix.cc:137:	REP(j, m_rows)
+./src_Original/lib/matrix.cc:145:	REP(i, k)
+./src_Original/lib/kdtree.cc:46:	REP(i, points.size())
+./src_Original/lib/kdtree.cc:59:		REP(i, D) {
+./src_Original/lib/kdtree.cc:64:	REP(i, D)
+Binary file ./src_Original/image-stitching matches
+./src_Original/stitch/stitcher.cc:99:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_Original/stitch/stitcher.cc:106:  REP(k, (int)tasks.size()) {
+./src_Original/stitch/stitcher.cc:120:  REP(i, n) {
+./src_Original/stitch/stitcher.cc:148:  REP(i, imgs.size()) {
+./src_Original/stitch/stitcher.cc:165:    REPL(k, mid + 2, n)
+./src_Original/stitch/stitcher.cc:170:    REPD(k, mid - 2, 0)
+./src_Original/stitch/stitcher.cc:184:  REP(i, n) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:65:  REP(i, 3) ret[i].mult(v[i]);
+./src_Original/stitch/incremental_bundle_adjuster.cc:77:  REP(i, 3) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:144:    REP(i, new_state.params.size())
+./src_Original/stitch/incremental_bundle_adjuster.cc:236:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:254:  REP(i, idx_added.size()) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:255:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:265:      REP(k, err1.num_terms())
+./src_Original/stitch/incremental_bundle_adjuster.cc:281:  REP(i, cameras.size())
+./src_Original/stitch/incremental_bundle_adjuster.cc:284:  REP(pair_idx, match_pairs.size()) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:352:      REP(i, 6) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:360:      REP(i, 6) REP(j, 6) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:366:      REP(i, 6) REPL(j, i, 6) {
+./src_Original/stitch/incremental_bundle_adjuster.cc:388:  REP(i, cameras.size())
+./src_Original/stitch/incremental_bundle_adjuster.cc:400:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cprint:46:		REP(k, (int)images.size()) {
+./src_Original/stitch/Stitch_Print.cprint:67:		REP(i, target.height()) {
+./src_Original/stitch/Stitch_Print.cprint:70:			REP(j, target.width()) {
+./src_Original/stitch/Stitch_Print.cprint:175:	REP(i, n) REPL(j, i + 1, n) {
+./src_Original/stitch/Stitch_Print.cprint:244:	REP(k, 9)
+./src_Original/stitch/Stitch_Print.cprint:280:	REP(i, 3) r[i * 3] = normX(i);
+./src_Original/stitch/Stitch_Print.cprint:281:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_Original/stitch/Stitch_Print.cprint:282:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_Original/stitch/Stitch_Print.cprint:331:    REP(i, n) // hack focal
+./src_Original/stitch/Stitch_Print.cprint:366:          REP(i, n) if (vst[i] && i != next) {
+./src_Original/stitch/Stitch_Print.cprint:382:    REPL(i, 1, n) REP(j, i) {
+./src_Original/stitch/Stitch_Print.cprint:405:  REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/Stitch_Print.cprint:418:    REP(i, n) if (i != from && !vst[i]) {
+./src_Original/stitch/Stitch_Print.cprint:442:    REP(i, n) if (not vst[i])
+./src_Original/stitch/Stitch_Print.cprint:486:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_Original/stitch/Stitch_Print.cprint:493:	REP(k, n - 1)
+./src_Original/stitch/Stitch_Print.cprint:509:		REP(k, 3) {
+./src_Original/stitch/Stitch_Print.cprint:517:	REP(k, n) imgs[k].load();
+./src_Original/stitch/Stitch_Print.cprint:519:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_Original/stitch/Stitch_Print.cprint:522:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_Original/stitch/Stitch_Print.cprint:524:	REPD(i, mid - 1, 0) {
+./src_Original/stitch/Stitch_Print.cprint:536:	REPD(i, mid - 2, 0)
+./src_Original/stitch/Stitch_Print.cprint:551:	REPL(k, start, end) {
+./src_Original/stitch/Stitch_Print.cprint:558:	REP(k, len)
+./src_Original/stitch/Stitch_Print.cprint:565:	REPL(k, 1, len) {
+./src_Original/stitch/Stitch_Print.cprint:577:	REPL(k, 1, len - 1)
+./src_Original/stitch/Stitch_Print.cprint:658:	REP(k, (int)images.size()) {
+./src_Original/stitch/Stitch_Print.cprint:689:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_Original/stitch/Stitch_Print.cprint:707:	REP(i, n) imgs[i].load();
+./src_Original/stitch/Stitch_Print.cprint:709:	REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/Stitch_Print.cprint:731:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_Original/stitch/Stitch_Print.cprint:738:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_Original/stitch/Stitch_Print.cprint:753:	REP(i, n) REP(j, n) {
+./src_Original/stitch/Stitch_Print.cprint:842:	REP(i, NR_POINT_ON_EDGE) {
+./src_Original/stitch/Stitch_Print.cprint:852:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_Original/stitch/Stitch_Print.cprint:856:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./src_Original/stitch/Stitch_Print.cprint:941:  REP(i, 3) ret[i].mult(v[i]);
+./src_Original/stitch/Stitch_Print.cprint:953:  REP(i, 3) {
+./src_Original/stitch/Stitch_Print.cprint:1020:    REP(i, new_state.params.size())
+./src_Original/stitch/Stitch_Print.cprint:1112:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/Stitch_Print.cprint:1130:  REP(i, idx_added.size()) {
+./src_Original/stitch/Stitch_Print.cprint:1131:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/Stitch_Print.cprint:1141:      REP(k, err1.num_terms())
+./src_Original/stitch/Stitch_Print.cprint:1157:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cprint:1160:  REP(pair_idx, match_pairs.size()) {
+./src_Original/stitch/Stitch_Print.cprint:1228:      REP(i, 6) {
+./src_Original/stitch/Stitch_Print.cprint:1236:      REP(i, 6) REP(j, 6) {
+./src_Original/stitch/Stitch_Print.cprint:1242:      REP(i, 6) REPL(j, i, 6) {
+./src_Original/stitch/Stitch_Print.cprint:1264:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cprint:1276:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cprint:1317:	REP(k, nr_image) {
+./src_Original/stitch/Stitch_Print.cprint:1324:		REP(i, range.height()) REP(j, range.width()) {
+./src_Original/stitch/Stitch_Print.cprint:1368:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/Stitch_Print.cprint:1371:			REP(imgid, images.size())  {
+./src_Original/stitch/Stitch_Print.cprint:1405:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_Original/stitch/Stitch_Print.cprint:1420:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/Stitch_Print.cprint:1441:	REP(i, (int)images.size())
+./src_Original/stitch/Stitch_Print.cprint:1548:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_Original/stitch/Stitch_Print.cprint:1555:  REP(k, (int)tasks.size()) {
+./src_Original/stitch/Stitch_Print.cprint:1569:  REP(i, n) {
+./src_Original/stitch/Stitch_Print.cprint:1597:  REP(i, imgs.size()) {
+./src_Original/stitch/Stitch_Print.cprint:1614:    REPL(k, mid + 2, n)
+./src_Original/stitch/Stitch_Print.cprint:1619:    REPD(k, mid - 2, 0)
+./src_Original/stitch/Stitch_Print.cprint:1633:  REP(i, n) {
+./src_Original/stitch/Stitch_Print.cprint:1662:  REP(k, (int)imgs.size()) {
+./src_Original/stitch/Stitch_Print.cprint:1671:    REP(i, feats[k].size())
+./src_Original/stitch/Stitch_Print.cprint:1712:	REP(i, (int)component.size())
+./src_Original/stitch/Stitch_Print.cprint:1729:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_Original/stitch/Stitch_Print.cprint:1877:	REP(i, n) {
+./src_Original/stitch/Stitch_Print.cprint:1907:		REP(_, nr_match_used) {
+./src_Original/stitch/Stitch_Print.cprint:1976:	REP(i, n) {
+./src_Original/stitch/Stitch_Print.cprint:2088:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_Original/stitch/Stitch_Print.cprint:2103:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_Original/stitch/transform_estimate.cc:40:	REP(i, n) {
+./src_Original/stitch/transform_estimate.cc:70:		REP(_, nr_match_used) {
+./src_Original/stitch/transform_estimate.cc:139:	REP(i, n) {
+./src_Original/stitch/stitcherbase.cc:17:  REP(k, (int)imgs.size()) 
+./src_Original/stitch/stitcherbase.cc:27:    REP(i, feats[k].size())
+./src_Original/stitch/Stitch_Print.cpp:46:		REP(k, (int)images.size()) {
+./src_Original/stitch/Stitch_Print.cpp:67:		REP(i, target.height()) {
+./src_Original/stitch/Stitch_Print.cpp:70:			REP(j, target.width()) {
+./src_Original/stitch/Stitch_Print.cpp:175:	REP(i, n) REPL(j, i + 1, n) {
+./src_Original/stitch/Stitch_Print.cpp:244:	REP(k, 9)
+./src_Original/stitch/Stitch_Print.cpp:280:	REP(i, 3) r[i * 3] = normX(i);
+./src_Original/stitch/Stitch_Print.cpp:281:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_Original/stitch/Stitch_Print.cpp:282:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_Original/stitch/Stitch_Print.cpp:331:    REP(i, n) // hack focal
+./src_Original/stitch/Stitch_Print.cpp:366:          REP(i, n) if (vst[i] && i != next) {
+./src_Original/stitch/Stitch_Print.cpp:382:    REPL(i, 1, n) REP(j, i) {
+./src_Original/stitch/Stitch_Print.cpp:405:  REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/Stitch_Print.cpp:418:    REP(i, n) if (i != from && !vst[i]) {
+./src_Original/stitch/Stitch_Print.cpp:442:    REP(i, n) if (not vst[i])
+./src_Original/stitch/Stitch_Print.cpp:486:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_Original/stitch/Stitch_Print.cpp:493:	REP(k, n - 1)
+./src_Original/stitch/Stitch_Print.cpp:509:		REP(k, 3) {
+./src_Original/stitch/Stitch_Print.cpp:517:	REP(k, n) imgs[k].load();
+./src_Original/stitch/Stitch_Print.cpp:519:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_Original/stitch/Stitch_Print.cpp:522:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_Original/stitch/Stitch_Print.cpp:524:	REPD(i, mid - 1, 0) {
+./src_Original/stitch/Stitch_Print.cpp:536:	REPD(i, mid - 2, 0)
+./src_Original/stitch/Stitch_Print.cpp:551:	REPL(k, start, end) {
+./src_Original/stitch/Stitch_Print.cpp:558:	REP(k, len)
+./src_Original/stitch/Stitch_Print.cpp:565:	REPL(k, 1, len) {
+./src_Original/stitch/Stitch_Print.cpp:577:	REPL(k, 1, len - 1)
+./src_Original/stitch/Stitch_Print.cpp:658:	REP(k, (int)images.size()) {
+./src_Original/stitch/Stitch_Print.cpp:689:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_Original/stitch/Stitch_Print.cpp:707:	REP(i, n) imgs[i].load();
+./src_Original/stitch/Stitch_Print.cpp:709:	REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/Stitch_Print.cpp:731:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_Original/stitch/Stitch_Print.cpp:738:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_Original/stitch/Stitch_Print.cpp:753:	REP(i, n) REP(j, n) {
+./src_Original/stitch/Stitch_Print.cpp:842:	REP(i, NR_POINT_ON_EDGE) {
+./src_Original/stitch/Stitch_Print.cpp:852:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_Original/stitch/Stitch_Print.cpp:856:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./src_Original/stitch/Stitch_Print.cpp:941:  REP(i, 3) ret[i].mult(v[i]);
+./src_Original/stitch/Stitch_Print.cpp:953:  REP(i, 3) {
+./src_Original/stitch/Stitch_Print.cpp:1020:    REP(i, new_state.params.size())
+./src_Original/stitch/Stitch_Print.cpp:1112:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/Stitch_Print.cpp:1130:  REP(i, idx_added.size()) {
+./src_Original/stitch/Stitch_Print.cpp:1131:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_Original/stitch/Stitch_Print.cpp:1141:      REP(k, err1.num_terms())
+./src_Original/stitch/Stitch_Print.cpp:1157:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cpp:1160:  REP(pair_idx, match_pairs.size()) {
+./src_Original/stitch/Stitch_Print.cpp:1228:      REP(i, 6) {
+./src_Original/stitch/Stitch_Print.cpp:1236:      REP(i, 6) REP(j, 6) {
+./src_Original/stitch/Stitch_Print.cpp:1242:      REP(i, 6) REPL(j, i, 6) {
+./src_Original/stitch/Stitch_Print.cpp:1264:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cpp:1276:  REP(i, cameras.size())
+./src_Original/stitch/Stitch_Print.cpp:1317:	REP(k, nr_image) {
+./src_Original/stitch/Stitch_Print.cpp:1324:		REP(i, range.height()) REP(j, range.width()) {
+./src_Original/stitch/Stitch_Print.cpp:1368:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/Stitch_Print.cpp:1371:			REP(imgid, images.size())  {
+./src_Original/stitch/Stitch_Print.cpp:1405:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_Original/stitch/Stitch_Print.cpp:1420:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/Stitch_Print.cpp:1441:	REP(i, (int)images.size())
+./src_Original/stitch/Stitch_Print.cpp:1548:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_Original/stitch/Stitch_Print.cpp:1555:  REP(k, (int)tasks.size()) {
+./src_Original/stitch/Stitch_Print.cpp:1569:  REP(i, n) {
+./src_Original/stitch/Stitch_Print.cpp:1597:  REP(i, imgs.size()) {
+./src_Original/stitch/Stitch_Print.cpp:1614:    REPL(k, mid + 2, n)
+./src_Original/stitch/Stitch_Print.cpp:1619:    REPD(k, mid - 2, 0)
+./src_Original/stitch/Stitch_Print.cpp:1633:  REP(i, n) {
+./src_Original/stitch/Stitch_Print.cpp:1662:  REP(k, (int)imgs.size()) {
+./src_Original/stitch/Stitch_Print.cpp:1671:    REP(i, feats[k].size())
+./src_Original/stitch/Stitch_Print.cpp:1712:	REP(i, (int)component.size())
+./src_Original/stitch/Stitch_Print.cpp:1729:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_Original/stitch/Stitch_Print.cpp:1877:	REP(i, n) {
+./src_Original/stitch/Stitch_Print.cpp:1907:		REP(_, nr_match_used) {
+./src_Original/stitch/Stitch_Print.cpp:1976:	REP(i, n) {
+./src_Original/stitch/Stitch_Print.cpp:2088:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_Original/stitch/Stitch_Print.cpp:2103:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_Original/stitch/homography.hh:26:			REP(i, 9) data[i] = arr[i];
+./src_Original/stitch/homography.hh:32:			REP(i, 9) data[i] = p[i];
+./src_Original/stitch/homography.hh:47:		inline void operator += (const Homography& r) { REP(i, 9) data[i] += r.data[i]; }
+./src_Original/stitch/homography.hh:49:		inline void mult(double r) { REP(i, 9) data[i] *= r; }
+./src_Original/stitch/homography.hh:87:			REP(i, 3) ret.data[i * 3 + i] = 1;
+./src_Original/stitch/homography.hh:139:			REP(i, 9) ret.ptr()[i] = data[i];
+./src_Original/stitch/homography.hh:152:			REP(i, 8) os << data[i] << " ";
+./src_Original/stitch/homography.hh:158:			REP(i, 9) is >> ret[i];
+./src_Original/stitch/multiband.cc:25:	REP(k, nr_image) {
+./src_Original/stitch/multiband.cc:32:		REP(i, range.height()) REP(j, range.width()) {
+./src_Original/stitch/multiband.cc:76:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/multiband.cc:79:			REP(imgid, images.size())  {
+./src_Original/stitch/multiband.cc:113:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_Original/stitch/multiband.cc:128:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_Original/stitch/multiband.cc:149:	REP(i, (int)images.size())
+./src_Original/stitch/blender.cc:45:		REP(k, (int)images.size()) {
+./src_Original/stitch/blender.cc:66:		REP(i, target.height()) {
+./src_Original/stitch/blender.cc:69:			REP(j, target.width()) {
+./src_Original/stitch/warp.cc:34:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_Original/stitch/warp.cc:49:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_Original/stitch/cylstitcher.hh:36:				REP(i, imgs.size())
+./src_Original/stitch/debug.cc:21:	REP(k, (int)images.size()) {
+./src_Original/stitch/debug.cc:52:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_Original/stitch/debug.cc:70:	REP(i, n) imgs[i].load();
+./src_Original/stitch/debug.cc:72:	REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/debug.cc:94:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_Original/stitch/debug.cc:101:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_Original/stitch/debug.cc:116:	REP(i, n) REP(j, n) {
+./src_Original/stitch/match_info.hh:45:		REP(i, match_size) {
+./src_Original/stitch/stitcher_image.cc:27:	REP(i, (int)component.size())
+./src_Original/stitch/stitcher_image.cc:44:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_Original/stitch/camera.cc:74:	REP(i, n) REPL(j, i + 1, n) {
+./src_Original/stitch/camera.cc:143:	REP(k, 9)
+./src_Original/stitch/camera.cc:179:	REP(i, 3) r[i * 3] = normX(i);
+./src_Original/stitch/camera.cc:180:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_Original/stitch/camera.cc:181:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_Original/stitch/camera_estimator.cc:41:    REP(i, n) // hack focal
+./src_Original/stitch/camera_estimator.cc:76:          REP(i, n) if (vst[i] && i != next) {
+./src_Original/stitch/camera_estimator.cc:92:    REPL(i, 1, n) REP(j, i) {
+./src_Original/stitch/camera_estimator.cc:115:  REP(i, n) REPL(j, i+1, n) {
+./src_Original/stitch/camera_estimator.cc:128:    REP(i, n) if (i != from && !vst[i]) {
+./src_Original/stitch/camera_estimator.cc:152:    REP(i, n) if (not vst[i])
+./src_Original/stitch/stitcher.hh:57:				REP(i, imgs.size())
+./src_Original/stitch/cylstitcher.cc:34:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_Original/stitch/cylstitcher.cc:41:	REP(k, n - 1)
+./src_Original/stitch/cylstitcher.cc:57:		REP(k, 3) {
+./src_Original/stitch/cylstitcher.cc:65:	REP(k, n) imgs[k].load();
+./src_Original/stitch/cylstitcher.cc:67:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_Original/stitch/cylstitcher.cc:70:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_Original/stitch/cylstitcher.cc:72:	REPD(i, mid - 1, 0) {
+./src_Original/stitch/cylstitcher.cc:84:	REPD(i, mid - 2, 0)
+./src_Original/stitch/cylstitcher.cc:99:	REPL(k, start, end) {
+./src_Original/stitch/cylstitcher.cc:106:	REP(k, len)
+./src_Original/stitch/cylstitcher.cc:113:	REPL(k, 1, len) {
+./src_Original/stitch/cylstitcher.cc:125:	REPL(k, 1, len - 1)
+./src_Original/stitch/homography.cc:61:	REP(i, NR_POINT_ON_EDGE) {
+./src_Original/stitch/homography.cc:71:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_Original/stitch/homography.cc:75:	REP(i, 4 * NR_POINT_ON_EDGE) {
+Binary file ./src_Original/out.jpg matches
+Binary file ./src_Original/obj/lib/imgio.o matches
+./src_SIFT_Modified/feature/brief.cc:43:	REP(i, n) {
+./src_SIFT_Modified/feature/brief.cc:55:	REP(i, n) if (bits[i]) {
+./src_SIFT_Modified/feature/matcher.cc:46:	REP(k, l1) {
+./src_SIFT_Modified/feature/matcher.cc:53:		REP(kk, l2) {
+./src_SIFT_Modified/feature/matcher.cc:71:    REP(kk, l1) if (kk != k) {
+./src_SIFT_Modified/feature/matcher.cc:93:    REP(i, feat.size()) 
+./src_SIFT_Modified/feature/matcher.cc:102:  REP(i, (int)trees.size())
+./src_SIFT_Modified/feature/matcher.cc:127:  REP(i, source.size()) 
+./src_SIFT_Modified/feature/extrema.cc:22:	REP(i, npyramid)
+./src_SIFT_Modified/feature/extrema.cc:23:		REPL(j, 1, nscale - 2) {
+./src_SIFT_Modified/feature/extrema.cc:41:	REP(i, npyramid)
+./src_SIFT_Modified/feature/extrema.cc:42:		REPL(j, 1, nscale - 2) {
+./src_SIFT_Modified/feature/extrema.cc:190:		REPL(di, -1, 2) REPL(dj, -1, 2) {
+./src_SIFT_Modified/feature/extrema.cc:203:			REPL(di, -1, 2) {
+./src_SIFT_Modified/feature/extrema.cc:205:				REP(i, 3) {
+./src_SIFT_Modified/feature/extrema.cc:216:	REPL(i, 1, h - 1) REPL(j, 1, w - 1)
+./src_SIFT_Modified/feature/orientation.cc:71:		REP(i, ORI_HIST_BIN_NUM) {
+./src_SIFT_Modified/feature/orientation.cc:84:	REP(i, ORI_HIST_BIN_NUM) {
+./src_SIFT_Modified/feature/dog.cc:90:		REPL(x, 1, w-1) 
+./src_SIFT_Modified/feature/dog.cc:190:	REP(i,h)
+./src_SIFT_Modified/feature/dog.cc:195:		REP(j,w)
+./src_SIFT_Modified/feature/dog.cc:210:	REP(i, noctave) 
+./src_SIFT_Modified/feature/dog.cc:214:		REP(j, ns - 1)
+./src_SIFT_Modified/feature/sift.cc:149:	REP(dy, 2) 
+./src_SIFT_Modified/feature/sift.cc:153:			REP(dx, 2) 
+./src_SIFT_Modified/feature/gaussian.hh:246:			REP(j, w)
+./src_SIFT_Modified/feature/gaussian.hh:250:				REP(i, h) 
+./src_SIFT_Modified/feature/gaussian.hh:265:				REP(i, h) 
+./src_SIFT_Modified/feature/gaussian.hh:276:			REP(i, h) 
+./src_SIFT_Modified/feature/gaussian.hh:288:				REP(j, w) 
+./src_SIFT_Modified/feature/gaussian.hh:307:		REP(k, nscale - 1) 
+./src_SIFT_Modified/feature/dist.cc:95:	REP(i, n) {
+./src_SIFT_Modified/main.cc:178:	REP(i, 9) homo.ptr()[i] = info.homo[i];
+./src_SIFT_Modified/main.cc:186:	REP(i, 9) invM.ptr()[i] = inv[i];
+./src_SIFT_Modified/main.cc:197:	REPL(i, 2, argc) {
+./src_SIFT_Modified/main.cc:211: *    REPL(i, 1, argc)
+./src_SIFT_Modified/main.cc:219:	REPL(i, 1, argc) imgs.emplace_back(argv[i]);
+./src_SIFT_Modified/main.cc:304:	REP(i, OUTSIZE) REP(j, OUTSIZE) {
+./src_SIFT_Modified/lib/polygon.hh:34:			REP(i, p.size()) {
+./src_SIFT_Modified/lib/imgio.cc:30:	REP(i, n) {
+./src_SIFT_Modified/lib/imgio.cc:54:	REP(i, npixel) {
+./src_SIFT_Modified/lib/imgio.cc:76:		REP(i, mat.rows())
+./src_SIFT_Modified/lib/imgio.cc:77:			REP(j, mat.cols()) {
+./src_SIFT_Modified/lib/imgio.cc:83:		REP(i, mat.rows())
+./src_SIFT_Modified/lib/imgio.cc:84:			REP(j, mat.cols()) {
+./src_SIFT_Modified/lib/imgio.cc:105:	REP(i, mat.rows())
+./src_SIFT_Modified/lib/imgio.cc:106:		REP(j, mat.cols()) {
+./src_SIFT_Modified/lib/utils.hh:28:#define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./src_SIFT_Modified/lib/utils.hh:29:#define REPL(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x < (z); x ++)
+./src_SIFT_Modified/lib/utils.hh:30:#define REPD(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x >= (z); x --)
+./src_SIFT_Modified/lib/imgproc.cc:100:		REP(i, m.height()) {
+./src_SIFT_Modified/lib/imgproc.cc:125:		REP(i, m.height()) {
+./src_SIFT_Modified/lib/imgproc.cc:185:	REP(i, n) {
+./src_SIFT_Modified/lib/imgproc.cc:194:	REP(i, n) {
+./src_SIFT_Modified/lib/imgproc.cc:206:	REP(line, h) {
+./src_SIFT_Modified/lib/imgproc.cc:207:		REP(k, w) {
+./src_SIFT_Modified/lib/imgproc.cc:213:		REP(k, w) {
+./src_SIFT_Modified/lib/imgproc.cc:218:		REPD(k, w - 1, 0) {
+./src_SIFT_Modified/lib/imgproc.cc:223:		REP(k, w)
+./src_SIFT_Modified/lib/imgproc.cc:229:	REP(i, ret.height()) {
+./src_SIFT_Modified/lib/imgproc.cc:267:	REP(i, n) {
+./src_SIFT_Modified/lib/imgproc.cc:277:	REP(i, 8) ret.ptr()[i] = ans[i];
+./src_SIFT_Modified/lib/imgproc.cc:284:	 *REP(i, n) {
+./src_SIFT_Modified/lib/imgproc.cc:291:	 *REP(i, 9) ret.ptr()[i] = ans(i); // ans(8);
+./src_SIFT_Modified/lib/imgproc.cc:304:	REP(i, n) {
+./src_SIFT_Modified/lib/imgproc.cc:314:	REP(i, 6) ret.ptr()[i] = ans[i];
+./src_SIFT_Modified/lib/imgproc.cc:334:	REP(i, n)
+./src_SIFT_Modified/lib/matrix.cc:28:	REP(i, m.rows()) REP(j, m.cols())
+./src_SIFT_Modified/lib/matrix.cc:35:	REP(i, m_rows) REP(j, m_cols)
+./src_SIFT_Modified/lib/matrix.cc:55:	REP(i, pixels()) res[i] = rl[i] * rr[i];
+./src_SIFT_Modified/lib/matrix.cc:64:	REP(i, pixels()) res[i] = rl[i] - rr[i];
+./src_SIFT_Modified/lib/matrix.cc:72:	REP(i, pixels()) res[i] = rl[i] + rr[i];
+./src_SIFT_Modified/lib/matrix.cc:95:	REP(i, m_cols) {
+./src_SIFT_Modified/lib/matrix.cc:128:	REP(i, m_rows)
+./src_SIFT_Modified/lib/matrix.cc:136:	REP(j, m_rows)
+./src_SIFT_Modified/lib/matrix.cc:144:	REP(i, k)
+./src_SIFT_Modified/lib/kdtree.cc:46:	REP(i, points.size())
+./src_SIFT_Modified/lib/kdtree.cc:59:		REP(i, D) {
+./src_SIFT_Modified/lib/kdtree.cc:64:	REP(i, D)
+./src_SIFT_Modified/stitch/stitcher.cc:99:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_SIFT_Modified/stitch/stitcher.cc:106:  REP(k, (int)tasks.size()) {
+./src_SIFT_Modified/stitch/stitcher.cc:120:  REP(i, n) {
+./src_SIFT_Modified/stitch/stitcher.cc:148:  REP(i, imgs.size()) {
+./src_SIFT_Modified/stitch/stitcher.cc:165:    REPL(k, mid + 2, n)
+./src_SIFT_Modified/stitch/stitcher.cc:170:    REPD(k, mid - 2, 0)
+./src_SIFT_Modified/stitch/stitcher.cc:184:  REP(i, n) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:64:  REP(i, 3) ret[i].mult(v[i]);
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:76:  REP(i, 3) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:143:    REP(i, new_state.params.size())
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:235:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:253:  REP(i, idx_added.size()) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:254:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:264:      REP(k, err1.num_terms())
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:280:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:283:  REP(pair_idx, match_pairs.size()) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:351:      REP(i, 6) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:359:      REP(i, 6) REP(j, 6) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:365:      REP(i, 6) REPL(j, i, 6) {
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:387:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/incremental_bundle_adjuster.cc:399:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/transform_estimate.cc:40:	REP(i, n) {
+./src_SIFT_Modified/stitch/transform_estimate.cc:78:			REP(_, nr_match_used) 
+./src_SIFT_Modified/stitch/transform_estimate.cc:150:	REP(i, n) {
+./src_SIFT_Modified/stitch/stitcherbase.cc:17:  REP(k, (int)imgs.size()) 
+./src_SIFT_Modified/stitch/stitcherbase.cc:27:    REP(i, feats[k].size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:47:		REP(k, (int)images.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:68:		REP(i, target.height()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:71:			REP(j, target.width()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:176:	REP(i, n) REPL(j, i + 1, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:245:	REP(k, 9)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:281:	REP(i, 3) r[i * 3] = normX(i);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:282:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:283:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:332:    REP(i, n) // hack focal
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:367:          REP(i, n) if (vst[i] && i != next) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:383:    REPL(i, 1, n) REP(j, i) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:406:  REP(i, n) REPL(j, i+1, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:419:    REP(i, n) if (i != from && !vst[i]) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:443:    REP(i, n) if (not vst[i])
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:487:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:494:	REP(k, n - 1)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:510:		REP(k, 3) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:518:	REP(k, n) imgs[k].load();
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:520:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:523:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:525:	REPD(i, mid - 1, 0) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:537:	REPD(i, mid - 2, 0)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:552:	REPL(k, start, end) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:559:	REP(k, len)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:566:	REPL(k, 1, len) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:578:	REPL(k, 1, len - 1)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:659:	REP(k, (int)images.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:690:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:708:	REP(i, n) imgs[i].load();
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:710:	REP(i, n) REPL(j, i+1, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:732:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:739:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:754:	REP(i, n) REP(j, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:843:	REP(i, NR_POINT_ON_EDGE) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:853:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:857:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:942:  REP(i, 3) ret[i].mult(v[i]);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:954:  REP(i, 3) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1021:    REP(i, new_state.params.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1113:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1131:  REP(i, idx_added.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1132:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1142:      REP(k, err1.num_terms())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1158:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1161:  REP(pair_idx, match_pairs.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1229:      REP(i, 6) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1237:      REP(i, 6) REP(j, 6) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1243:      REP(i, 6) REPL(j, i, 6) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1265:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1277:  REP(i, cameras.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1318:	REP(k, nr_image) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1325:		REP(i, range.height()) REP(j, range.width()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1369:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1372:			REP(imgid, images.size())  {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1406:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1421:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1442:	REP(i, (int)images.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1549:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1556:  REP(k, (int)tasks.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1570:  REP(i, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1598:  REP(i, imgs.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1615:    REPL(k, mid + 2, n)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1620:    REPD(k, mid - 2, 0)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1634:  REP(i, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1663:  REP(k, (int)imgs.size()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1672:    REP(i, feats[k].size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1713:	REP(i, (int)component.size())
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1730:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1878:	REP(i, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1908:		REP(_, nr_match_used) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:1977:	REP(i, n) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:2089:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_SIFT_Modified/stitch/Stitch_Print.cpp:2104:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_SIFT_Modified/stitch/homography.hh:26:			REP(i, 9) data[i] = arr[i];
+./src_SIFT_Modified/stitch/homography.hh:32:			REP(i, 9) data[i] = p[i];
+./src_SIFT_Modified/stitch/homography.hh:47:		inline void operator += (const Homography& r) { REP(i, 9) data[i] += r.data[i]; }
+./src_SIFT_Modified/stitch/homography.hh:49:		inline void mult(double r) { REP(i, 9) data[i] *= r; }
+./src_SIFT_Modified/stitch/homography.hh:87:			REP(i, 3) ret.data[i * 3 + i] = 1;
+./src_SIFT_Modified/stitch/homography.hh:139:			REP(i, 9) ret.ptr()[i] = data[i];
+./src_SIFT_Modified/stitch/homography.hh:152:			REP(i, 8) os << data[i] << " ";
+./src_SIFT_Modified/stitch/homography.hh:158:			REP(i, 9) is >> ret[i];
+./src_SIFT_Modified/stitch/multiband.cc:25:	REP(k, nr_image) {
+./src_SIFT_Modified/stitch/multiband.cc:32:		REP(i, range.height()) REP(j, range.width()) {
+./src_SIFT_Modified/stitch/multiband.cc:76:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_SIFT_Modified/stitch/multiband.cc:79:			REP(imgid, images.size())  {
+./src_SIFT_Modified/stitch/multiband.cc:113:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_SIFT_Modified/stitch/multiband.cc:128:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_SIFT_Modified/stitch/multiband.cc:149:	REP(i, (int)images.size())
+./src_SIFT_Modified/stitch/blender.cc:45:		REP(k, (int)images.size()) {
+./src_SIFT_Modified/stitch/blender.cc:66:		REP(i, target.height()) {
+./src_SIFT_Modified/stitch/blender.cc:69:			REP(j, target.width()) {
+./src_SIFT_Modified/stitch/warp.cc:34:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_SIFT_Modified/stitch/warp.cc:49:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_SIFT_Modified/stitch/cylstitcher.hh:36:				REP(i, imgs.size())
+./src_SIFT_Modified/stitch/debug.cc:21:	REP(k, (int)images.size()) {
+./src_SIFT_Modified/stitch/debug.cc:52:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_SIFT_Modified/stitch/debug.cc:70:	REP(i, n) imgs[i].load();
+./src_SIFT_Modified/stitch/debug.cc:72:	REP(i, n) REPL(j, i+1, n) {
+./src_SIFT_Modified/stitch/debug.cc:94:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_SIFT_Modified/stitch/debug.cc:101:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_SIFT_Modified/stitch/debug.cc:116:	REP(i, n) REP(j, n) {
+./src_SIFT_Modified/stitch/match_info.hh:45:		REP(i, match_size) {
+./src_SIFT_Modified/stitch/stitcher_image.cc:27:	REP(i, (int)component.size())
+./src_SIFT_Modified/stitch/stitcher_image.cc:44:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_SIFT_Modified/stitch/camera.cc:73:	REP(i, n) REPL(j, i + 1, n) {
+./src_SIFT_Modified/stitch/camera.cc:142:	REP(k, 9)
+./src_SIFT_Modified/stitch/camera.cc:178:	REP(i, 3) r[i * 3] = normX(i);
+./src_SIFT_Modified/stitch/camera.cc:179:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_SIFT_Modified/stitch/camera.cc:180:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_SIFT_Modified/stitch/camera_estimator.cc:41:    REP(i, n) // hack focal
+./src_SIFT_Modified/stitch/camera_estimator.cc:76:          REP(i, n) if (vst[i] && i != next) {
+./src_SIFT_Modified/stitch/camera_estimator.cc:92:    REPL(i, 1, n) REP(j, i) {
+./src_SIFT_Modified/stitch/camera_estimator.cc:115:  REP(i, n) REPL(j, i+1, n) {
+./src_SIFT_Modified/stitch/camera_estimator.cc:128:    REP(i, n) if (i != from && !vst[i]) {
+./src_SIFT_Modified/stitch/camera_estimator.cc:152:    REP(i, n) if (not vst[i])
+./src_SIFT_Modified/stitch/stitcher.hh:57:				REP(i, imgs.size())
+./src_SIFT_Modified/stitch/cylstitcher.cc:34:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_SIFT_Modified/stitch/cylstitcher.cc:41:	REP(k, n - 1)
+./src_SIFT_Modified/stitch/cylstitcher.cc:57:		REP(k, 3) {
+./src_SIFT_Modified/stitch/cylstitcher.cc:65:	REP(k, n) imgs[k].load();
+./src_SIFT_Modified/stitch/cylstitcher.cc:67:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_SIFT_Modified/stitch/cylstitcher.cc:70:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_SIFT_Modified/stitch/cylstitcher.cc:72:	REPD(i, mid - 1, 0) {
+./src_SIFT_Modified/stitch/cylstitcher.cc:84:	REPD(i, mid - 2, 0)
+./src_SIFT_Modified/stitch/cylstitcher.cc:99:	REPL(k, start, end) {
+./src_SIFT_Modified/stitch/cylstitcher.cc:106:	REP(k, len)
+./src_SIFT_Modified/stitch/cylstitcher.cc:113:	REPL(k, 1, len) {
+./src_SIFT_Modified/stitch/cylstitcher.cc:125:	REPL(k, 1, len - 1)
+./src_SIFT_Modified/stitch/homography.cc:60:	REP(i, NR_POINT_ON_EDGE) {
+./src_SIFT_Modified/stitch/homography.cc:70:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_SIFT_Modified/stitch/homography.cc:74:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./vererror:22509:  332 |     REP(i, n) // hack focal
+./vererror:22511:/home/gwolfmann/stitch/StitchIt/src_Original/./lib/utils.hh:28:88: note: in definition of macro ‘REP’
+./vererror:22512:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22515:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22517:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:332:5: note: in expansion of macro ‘REP’
+./vererror:22518:  332 |     REP(i, n) // hack focal
+./vererror:22521:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22523:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:332:5: note: in expansion of macro ‘REP’
+./vererror:22524:  332 |     REP(i, n) // hack focal
+./vererror:22583:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22585:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:367:11: note: in expansion of macro ‘REP’
+./vererror:22586:  367 |           REP(i, n) if (vst[i] && i != next) {
+./vererror:22589:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22591:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:367:11: note: in expansion of macro ‘REP’
+./vererror:22592:  367 |           REP(i, n) if (vst[i] && i != next) {
+./vererror:22613:  406 |   REP(i, n) REPL(j, i+1, n) {
+./vererror:22615:/home/gwolfmann/stitch/StitchIt/src_Original/./lib/utils.hh:28:88: note: in definition of macro ‘REP’
+./vererror:22616:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22619:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22621:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:406:3: note: in expansion of macro ‘REP’
+./vererror:22622:  406 |   REP(i, n) REPL(j, i+1, n) {
+./vererror:22625:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22627:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:406:3: note: in expansion of macro ‘REP’
+./vererror:22628:  406 |   REP(i, n) REPL(j, i+1, n) {
+./vererror:22671:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22673:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:419:5: note: in expansion of macro ‘REP’
+./vererror:22674:  419 |     REP(i, n) if (i != from && !vst[i]) {
+./vererror:22677:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22679:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:419:5: note: in expansion of macro ‘REP’
+./vererror:22680:  419 |     REP(i, n) if (i != from && !vst[i]) {
+./vererror:22690:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22692:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:443:5: note: in expansion of macro ‘REP’
+./vererror:22693:  443 |     REP(i, n) if (not vst[i])
+./vererror:22696:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:22698:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:443:5: note: in expansion of macro ‘REP’
+./vererror:22699:  443 |     REP(i, n) if (not vst[i])
+./vererror:23316:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:23318:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:690:3: note: in expansion of macro ‘REP’
+./vererror:23319:  690 |   REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./vererror:23322:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:23324:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:690:3: note: in expansion of macro ‘REP’
+./vererror:23325:  690 |   REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./vererror:23328:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:23330:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:690:23: note: in expansion of macro ‘REP’
+./vererror:23331:  690 |   REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./vererror:23334:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:23336:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:690:23: note: in expansion of macro ‘REP’
+./vererror:23337:  690 |   REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./vererror:24578:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24580:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1325:3: note: in expansion of macro ‘REP’
+./vererror:24581: 1325 |   REP(i, range.height()) REP(j, range.width()) {
+./vererror:24584:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24586:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1325:3: note: in expansion of macro ‘REP’
+./vererror:24587: 1325 |   REP(i, range.height()) REP(j, range.width()) {
+./vererror:24590:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24592:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1325:26: note: in expansion of macro ‘REP’
+./vererror:24593: 1325 |   REP(i, range.height()) REP(j, range.width()) {
+./vererror:24596:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24598:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1325:26: note: in expansion of macro ‘REP’
+./vererror:24599: 1325 |   REP(i, range.height()) REP(j, range.width()) {
+./vererror:24680:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24682:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1369:3: note: in expansion of macro ‘REP’
+./vererror:24683: 1369 |   REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24686:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24688:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1369:3: note: in expansion of macro ‘REP’
+./vererror:24689: 1369 |   REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24692:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24694:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1369:25: note: in expansion of macro ‘REP’
+./vererror:24695: 1369 |   REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24698:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24700:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1369:25: note: in expansion of macro ‘REP’
+./vererror:24701: 1369 |   REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24704: 1372 |    REP(imgid, images.size())  {
+./vererror:24706:/home/gwolfmann/stitch/StitchIt/src_Original/./lib/utils.hh:28:88: note: in definition of macro ‘REP’
+./vererror:24707:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24710:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24712:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1372:4: note: in expansion of macro ‘REP’
+./vererror:24713: 1372 |    REP(imgid, images.size())  {
+./vererror:24716:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24718:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1372:4: note: in expansion of macro ‘REP’
+./vererror:24719: 1372 |    REP(imgid, images.size())  {
+./vererror:24753: 1421 |  REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24755:/home/gwolfmann/stitch/StitchIt/src_Original/./lib/utils.hh:28:88: note: in definition of macro ‘REP’
+./vererror:24756:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24759:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24761:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1421:2: note: in expansion of macro ‘REP’
+./vererror:24762: 1421 |  REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24765:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24767:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1421:2: note: in expansion of macro ‘REP’
+./vererror:24768: 1421 |  REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24771:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24773:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1421:24: note: in expansion of macro ‘REP’
+./vererror:24774: 1421 |  REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24777:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24779:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1421:24: note: in expansion of macro ‘REP’
+./vererror:24780: 1421 |  REP(i, target_size.y) REP(j, target_size.x) {
+./vererror:24797: 1442 |  REP(i, (int)images.size())
+./vererror:24799:/home/gwolfmann/stitch/StitchIt/src_Original/./lib/utils.hh:28:88: note: in definition of macro ‘REP’
+./vererror:24800:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24803:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24805:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1442:2: note: in expansion of macro ‘REP’
+./vererror:24806: 1442 |  REP(i, (int)images.size())
+./vererror:24809:   28 | #define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./vererror:24811:/home/gwolfmann/stitch/StitchIt/src_Original/stitch/Stitch_Print.cpp:1442:2: note: in expansion of macro ‘REP’
+./vererror:24812: 1442 |  REP(i, (int)images.size())
+Binary file ./example-data/myself/medium11.jpg matches
+Binary file ./example-data/myself/medium03.jpg matches
+Binary file ./example-data/CMU0/medium27.JPG matches
+Binary file ./example-data/CMU0/medium28.JPG matches
+Binary file ./example-data/zijing/medium11.jpg matches
+Binary file ./example-data/uav/medium18.jpg matches
+Binary file ./example-data/CMU1/medium01.jpg matches
+Binary file ./example-data/CMU1/medium08.jpg matches
+./src_blending_SIMD_optimized/feature/brief.cc:43:	REP(i, n) {
+./src_blending_SIMD_optimized/feature/brief.cc:55:	REP(i, n) if (bits[i]) {
+./src_blending_SIMD_optimized/feature/matcher.cc:42:	REP(k, l1) {
+./src_blending_SIMD_optimized/feature/matcher.cc:49:		REP(kk, l2) {
+./src_blending_SIMD_optimized/feature/matcher.cc:67:    REP(kk, l1) if (kk != k) {
+./src_blending_SIMD_optimized/feature/matcher.cc:87:    REP(i, feat.size()) {
+./src_blending_SIMD_optimized/feature/matcher.cc:95:  REP(i, (int)trees.size())
+./src_blending_SIMD_optimized/feature/matcher.cc:116:  REP(i, source.size()) {
+./src_blending_SIMD_optimized/feature/extrema.cc:22:	REP(i, npyramid)
+./src_blending_SIMD_optimized/feature/extrema.cc:23:		REPL(j, 1, nscale - 2) {
+./src_blending_SIMD_optimized/feature/extrema.cc:41:	REP(i, npyramid)
+./src_blending_SIMD_optimized/feature/extrema.cc:42:		REPL(j, 1, nscale - 2) {
+./src_blending_SIMD_optimized/feature/extrema.cc:186:		REPL(di, -1, 2) REPL(dj, -1, 2) {
+./src_blending_SIMD_optimized/feature/extrema.cc:199:			REPL(di, -1, 2) {
+./src_blending_SIMD_optimized/feature/extrema.cc:201:				REP(i, 3) {
+./src_blending_SIMD_optimized/feature/extrema.cc:212:	REPL(i, 1, h - 1) REPL(j, 1, w - 1)
+./src_blending_SIMD_optimized/feature/orientation.cc:71:		REP(i, ORI_HIST_BIN_NUM) {
+./src_blending_SIMD_optimized/feature/orientation.cc:82:	REP(i, ORI_HIST_BIN_NUM) {
+./src_blending_SIMD_optimized/feature/dog.cc:66:	REP(y, h) {
+./src_blending_SIMD_optimized/feature/dog.cc:76:		REPL(x, 1, w-1) {
+./src_blending_SIMD_optimized/feature/dog.cc:101:	REP(i, noctave) {
+./src_blending_SIMD_optimized/feature/dog.cc:120:	REP(i, h) {
+./src_blending_SIMD_optimized/feature/dog.cc:125:		REP(j, w)
+./src_blending_SIMD_optimized/feature/dog.cc:137:	REP(i, noctave) {
+./src_blending_SIMD_optimized/feature/dog.cc:140:		REP(j, ns - 1)
+./src_blending_SIMD_optimized/feature/sift.cc:58:	REP(dy, 2) if (between(ybinf + dy, 0, DESC_HIST_WIDTH)) {
+./src_blending_SIMD_optimized/feature/sift.cc:60:		REP(dx, 2) if (between(xbinf + dx, 0, DESC_HIST_WIDTH)) {
+./src_blending_SIMD_optimized/feature/gaussian.hh:44:			REP(j, w){
+./src_blending_SIMD_optimized/feature/gaussian.hh:47:				REP(i, h) {
+./src_blending_SIMD_optimized/feature/gaussian.hh:61:				REP(i, h) {
+./src_blending_SIMD_optimized/feature/gaussian.hh:71:			REP(i, h) {
+./src_blending_SIMD_optimized/feature/gaussian.hh:82:				REP(j, w) {
+./src_blending_SIMD_optimized/feature/gaussian.hh:99:		REP(k, nscale - 1) {
+./src_blending_SIMD_optimized/feature/dist.cc:95:	REP(i, n) {
+./src_blending_SIMD_optimized/main.cc:178:	REP(i, 9) homo.ptr()[i] = info.homo[i];
+./src_blending_SIMD_optimized/main.cc:186:	REP(i, 9) invM.ptr()[i] = inv[i];
+./src_blending_SIMD_optimized/main.cc:197:	REPL(i, 2, argc) {
+./src_blending_SIMD_optimized/main.cc:211: *    REPL(i, 1, argc)
+./src_blending_SIMD_optimized/main.cc:216:	REPL(i, 1, argc) imgs.emplace_back(argv[i]);
+./src_blending_SIMD_optimized/main.cc:301:	REP(i, OUTSIZE) REP(j, OUTSIZE) {
+./src_blending_SIMD_optimized/lib/polygon.hh:34:			REP(i, p.size()) {
+./src_blending_SIMD_optimized/lib/imgio.cc:30:	REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgio.cc:54:	REP(i, npixel) {
+./src_blending_SIMD_optimized/lib/imgio.cc:76:		REP(i, mat.rows())
+./src_blending_SIMD_optimized/lib/imgio.cc:77:			REP(j, mat.cols()) {
+./src_blending_SIMD_optimized/lib/imgio.cc:83:		REP(i, mat.rows())
+./src_blending_SIMD_optimized/lib/imgio.cc:84:			REP(j, mat.cols()) {
+./src_blending_SIMD_optimized/lib/imgio.cc:105:	REP(i, mat.rows())
+./src_blending_SIMD_optimized/lib/imgio.cc:106:		REP(j, mat.cols()) {
+./src_blending_SIMD_optimized/lib/utils.hh:28:#define REP(x, y) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = 0; x < (y); x ++)
+./src_blending_SIMD_optimized/lib/utils.hh:29:#define REPL(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x < (z); x ++)
+./src_blending_SIMD_optimized/lib/utils.hh:30:#define REPD(x, y, z) for (typename std::remove_cv<typename std::remove_reference<decltype(y)>::type>::type x = y; x >= (z); x --)
+./src_blending_SIMD_optimized/lib/imgproc.cc:100:		REP(i, m.height()) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:125:		REP(i, m.height()) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:185:	REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:194:	REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:206:	REP(line, h) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:207:		REP(k, w) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:213:		REP(k, w) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:218:		REPD(k, w - 1, 0) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:223:		REP(k, w)
+./src_blending_SIMD_optimized/lib/imgproc.cc:229:	REP(i, ret.height()) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:267:	REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:277:	REP(i, 8) ret.ptr()[i] = ans[i];
+./src_blending_SIMD_optimized/lib/imgproc.cc:284:	 *REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:291:	 *REP(i, 9) ret.ptr()[i] = ans(i); // ans(8);
+./src_blending_SIMD_optimized/lib/imgproc.cc:304:	REP(i, n) {
+./src_blending_SIMD_optimized/lib/imgproc.cc:314:	REP(i, 6) ret.ptr()[i] = ans[i];
+./src_blending_SIMD_optimized/lib/imgproc.cc:334:	REP(i, n)
+./src_blending_SIMD_optimized/lib/matrix.cc:28:	REP(i, m.rows()) REP(j, m.cols())
+./src_blending_SIMD_optimized/lib/matrix.cc:35:	REP(i, m_rows) REP(j, m_cols)
+./src_blending_SIMD_optimized/lib/matrix.cc:55:	REP(i, pixels()) res[i] = rl[i] * rr[i];
+./src_blending_SIMD_optimized/lib/matrix.cc:64:	REP(i, pixels()) res[i] = rl[i] - rr[i];
+./src_blending_SIMD_optimized/lib/matrix.cc:72:	REP(i, pixels()) res[i] = rl[i] + rr[i];
+./src_blending_SIMD_optimized/lib/matrix.cc:95:	REP(i, m_cols) {
+./src_blending_SIMD_optimized/lib/matrix.cc:128:	REP(i, m_rows)
+./src_blending_SIMD_optimized/lib/matrix.cc:136:	REP(j, m_rows)
+./src_blending_SIMD_optimized/lib/matrix.cc:144:	REP(i, k)
+./src_blending_SIMD_optimized/lib/kdtree.cc:46:	REP(i, points.size())
+./src_blending_SIMD_optimized/lib/kdtree.cc:59:		REP(i, D) {
+./src_blending_SIMD_optimized/lib/kdtree.cc:64:	REP(i, D)
+./src_blending_SIMD_optimized/stitch/stitcher.cc:99:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_blending_SIMD_optimized/stitch/stitcher.cc:106:  REP(k, (int)tasks.size()) {
+./src_blending_SIMD_optimized/stitch/stitcher.cc:120:  REP(i, n) {
+./src_blending_SIMD_optimized/stitch/stitcher.cc:148:  REP(i, imgs.size()) {
+./src_blending_SIMD_optimized/stitch/stitcher.cc:165:    REPL(k, mid + 2, n)
+./src_blending_SIMD_optimized/stitch/stitcher.cc:170:    REPD(k, mid - 2, 0)
+./src_blending_SIMD_optimized/stitch/stitcher.cc:184:  REP(i, n) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:64:  REP(i, 3) ret[i].mult(v[i]);
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:76:  REP(i, 3) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:143:    REP(i, new_state.params.size())
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:235:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:253:  REP(i, idx_added.size()) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:254:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:264:      REP(k, err1.num_terms())
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:280:  REP(i, cameras.size())
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:283:  REP(pair_idx, match_pairs.size()) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:351:      REP(i, 6) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:359:      REP(i, 6) REP(j, 6) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:365:      REP(i, 6) REPL(j, i, 6) {
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:387:  REP(i, cameras.size())
+./src_blending_SIMD_optimized/stitch/incremental_bundle_adjuster.cc:399:  REP(i, cameras.size())
+./src_blending_SIMD_optimized/stitch/transform_estimate.cc:40:	REP(i, n) {
+./src_blending_SIMD_optimized/stitch/transform_estimate.cc:70:		REP(_, nr_match_used) {
+./src_blending_SIMD_optimized/stitch/transform_estimate.cc:139:	REP(i, n) {
+./src_blending_SIMD_optimized/stitch/stitcherbase.cc:15:  REP(k, (int)imgs.size()) {
+./src_blending_SIMD_optimized/stitch/stitcherbase.cc:24:    REP(i, feats[k].size())
+./src_blending_SIMD_optimized/stitch/homography.hh:26:			REP(i, 9) data[i] = arr[i];
+./src_blending_SIMD_optimized/stitch/homography.hh:32:			REP(i, 9) data[i] = p[i];
+./src_blending_SIMD_optimized/stitch/homography.hh:47:		inline void operator += (const Homography& r) { REP(i, 9) data[i] += r.data[i]; }
+./src_blending_SIMD_optimized/stitch/homography.hh:49:		inline void mult(double r) { REP(i, 9) data[i] *= r; }
+./src_blending_SIMD_optimized/stitch/homography.hh:87:			REP(i, 3) ret.data[i * 3 + i] = 1;
+./src_blending_SIMD_optimized/stitch/homography.hh:139:			REP(i, 9) ret.ptr()[i] = data[i];
+./src_blending_SIMD_optimized/stitch/homography.hh:152:			REP(i, 8) os << data[i] << " ";
+./src_blending_SIMD_optimized/stitch/homography.hh:158:			REP(i, 9) is >> ret[i];
+./src_blending_SIMD_optimized/stitch/multiband.cc:25:	REP(k, nr_image) {
+./src_blending_SIMD_optimized/stitch/multiband.cc:32:		REP(i, range.height()) REP(j, range.width()) {
+./src_blending_SIMD_optimized/stitch/multiband.cc:76:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_blending_SIMD_optimized/stitch/multiband.cc:79:			REP(imgid, images.size())  {
+./src_blending_SIMD_optimized/stitch/multiband.cc:113:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_blending_SIMD_optimized/stitch/multiband.cc:128:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_blending_SIMD_optimized/stitch/multiband.cc:149:	REP(i, (int)images.size())
+./src_blending_SIMD_optimized/stitch/blender.cc:51:		REP(k, (int)images.size()) {
+./src_blending_SIMD_optimized/stitch/blender.cc:72:	/*	REP(i, target.height()) {
+./src_blending_SIMD_optimized/stitch/blender.cc:75:			REP(j, target.width()) {
+./src_blending_SIMD_optimized/stitch/warp.cc:34:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_blending_SIMD_optimized/stitch/warp.cc:49:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_blending_SIMD_optimized/stitch/cylstitcher.hh:36:				REP(i, imgs.size())
+./src_blending_SIMD_optimized/stitch/debug.cc:21:	REP(k, (int)images.size()) {
+./src_blending_SIMD_optimized/stitch/debug.cc:52:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_blending_SIMD_optimized/stitch/debug.cc:70:	REP(i, n) imgs[i].load();
+./src_blending_SIMD_optimized/stitch/debug.cc:72:	REP(i, n) REPL(j, i+1, n) {
+./src_blending_SIMD_optimized/stitch/debug.cc:94:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_blending_SIMD_optimized/stitch/debug.cc:101:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_blending_SIMD_optimized/stitch/debug.cc:116:	REP(i, n) REP(j, n) {
+./src_blending_SIMD_optimized/stitch/match_info.hh:45:		REP(i, match_size) {
+./src_blending_SIMD_optimized/stitch/stitcher_image.cc:27:	REP(i, (int)component.size())
+./src_blending_SIMD_optimized/stitch/stitcher_image.cc:44:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_blending_SIMD_optimized/stitch/camera.cc:73:	REP(i, n) REPL(j, i + 1, n) {
+./src_blending_SIMD_optimized/stitch/camera.cc:142:	REP(k, 9)
+./src_blending_SIMD_optimized/stitch/camera.cc:178:	REP(i, 3) r[i * 3] = normX(i);
+./src_blending_SIMD_optimized/stitch/camera.cc:179:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_blending_SIMD_optimized/stitch/camera.cc:180:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:41:    REP(i, n) // hack focal
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:76:          REP(i, n) if (vst[i] && i != next) {
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:92:    REPL(i, 1, n) REP(j, i) {
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:115:  REP(i, n) REPL(j, i+1, n) {
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:128:    REP(i, n) if (i != from && !vst[i]) {
+./src_blending_SIMD_optimized/stitch/camera_estimator.cc:152:    REP(i, n) if (not vst[i])
+./src_blending_SIMD_optimized/stitch/stitcher.hh:57:				REP(i, imgs.size())
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:34:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:41:	REP(k, n - 1)
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:57:		REP(k, 3) {
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:65:	REP(k, n) imgs[k].load();
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:67:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:70:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:72:	REPD(i, mid - 1, 0) {
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:84:	REPD(i, mid - 2, 0)
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:99:	REPL(k, start, end) {
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:106:	REP(k, len)
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:113:	REPL(k, 1, len) {
+./src_blending_SIMD_optimized/stitch/cylstitcher.cc:125:	REPL(k, 1, len - 1)
+./src_blending_SIMD_optimized/stitch/homography.cc:60:	REP(i, NR_POINT_ON_EDGE) {
+./src_blending_SIMD_optimized/stitch/homography.cc:70:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_blending_SIMD_optimized/stitch/homography.cc:74:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./cmake_install.cmake:7:string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+./cmake_install.cmake:12:    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+./cmake_install.cmake:46:string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+./src_BRIEF_Rot_Scale_Inv/feature/brief.cc:145:	REP(i, n) 
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:47:	REP(k, l1) 
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:56:		REP(kk, l2) 
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:82:    	REP(kk, l1) 
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:115:    REP(i, feat.size()) {
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:123:  REP(i, (int)trees.size())
+./src_BRIEF_Rot_Scale_Inv/feature/matcher.cc:149:  REP(i, source.size()) 
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:33:	REP(i, npyramid)
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:34:		REPL(j, 1, nscale - 2) {
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:137:	REP(i, npyramid)
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:138:		REPL(j, 1, nscale - 2) {
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:307:		REPL(di, -1, 2) REPL(dj, -1, 2) {
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:320:			REPL(di, -1, 2) {
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:322:				REP(i, 3) {
+./src_BRIEF_Rot_Scale_Inv/feature/extrema.cc:333:	REPL(i, 1, h - 1) REPL(j, 1, w - 1)
+./src_BRIEF_Rot_Scale_Inv/feature/orientation.cc:76:	REP(i, ORI_HIST_BIN_NUM) 
+./src_BRIEF_Rot_Scale_Inv/feature/dog.cc:89:		REPL(x, 1, w-1) 
+./src_BRIEF_Rot_Scale_Inv/feature/dog.cc:189:	REP(i,h)
+./src_BRIEF_Rot_Scale_Inv/feature/dog.cc:194:		REP(j,w)
+./src_BRIEF_Rot_Scale_Inv/feature/dog.cc:209:	REP(i, noctave) 
+./src_BRIEF_Rot_Scale_Inv/feature/dog.cc:213:		REP(j, ns - 1)
+./src_BRIEF_Rot_Scale_Inv/feature/sift.cc:58:	REP(dy, 2) if (between(ybinf + dy, 0, DESC_HIST_WIDTH)) {
+./src_BRIEF_Rot_Scale_Inv/feature/sift.cc:60:		REP(dx, 2) if (between(xbinf + dx, 0, DESC_HIST_WIDTH)) {
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:219:			REP(j, w)
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:223:				REP(i, h) 
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:238:				REP(i, h) 
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:249:			REP(i, h) 
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:261:				REP(j, w) 
+./src_BRIEF_Rot_Scale_Inv/feature/gaussian.hh:281:		REP(k, nscale - 1) 
+./src_BRIEF_Rot_Scale_Inv/feature/dist.cc:109:/*	REP(i, n) 
+./src_BRIEF_Rot_Scale_Inv/main.cc:180:	REP(i, 9) homo.ptr()[i] = info.homo[i];
+./src_BRIEF_Rot_Scale_Inv/main.cc:188:	REP(i, 9) invM.ptr()[i] = inv[i];
+./src_BRIEF_Rot_Scale_Inv/main.cc:199:	REPL(i, 2, argc) {
+./src_BRIEF_Rot_Scale_Inv/main.cc:213: *    REPL(i, 1, argc)
+./src_BRIEF_Rot_Scale_Inv/main.cc:220:	REPL(i, 1, argc) imgs.emplace_back(argv[i]);
+./src_BRIEF_Rot_Scale_Inv/main.cc:309:	REP(i, OUTSIZE) REP(j, OUTSIZE) {
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:109:  REP(i, n) 
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:110:	REPL(j, i + 1, n) 
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:116:  REP(k, (int)tasks.size()) 
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:133:  REP(i, n) 
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:163:  REP(i, imgs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:180:    REPL(k, mid + 2, n)
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:185:    REPD(k, mid - 2, 0)
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.cc:199:  REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:64:  REP(i, 3) ret[i].mult(v[i]);
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:76:  REP(i, 3) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:143:    REP(i, new_state.params.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:235:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:253:  REP(i, idx_added.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:254:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:264:      REP(k, err1.num_terms())
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:280:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:283:  REP(pair_idx, match_pairs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:351:      REP(i, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:359:      REP(i, 6) REP(j, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:365:      REP(i, 6) REPL(j, i, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:387:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/incremental_bundle_adjuster.cc:399:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/transform_estimate.cc:41:	REP(i, n) 
+./src_BRIEF_Rot_Scale_Inv/stitch/transform_estimate.cc:83:			REP(_, nr_match_used) 
+./src_BRIEF_Rot_Scale_Inv/stitch/transform_estimate.cc:158:	REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcherbase.cc:15:  REP(k, (int)imgs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcherbase.cc:24:    REP(i, feats[k].size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:47:		REP(k, (int)images.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:68:		REP(i, target.height()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:71:			REP(j, target.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:176:	REP(i, n) REPL(j, i + 1, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:245:	REP(k, 9)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:281:	REP(i, 3) r[i * 3] = normX(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:282:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:283:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:332:    REP(i, n) // hack focal
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:367:          REP(i, n) if (vst[i] && i != next) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:383:    REPL(i, 1, n) REP(j, i) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:406:  REP(i, n) REPL(j, i+1, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:419:    REP(i, n) if (i != from && !vst[i]) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:443:    REP(i, n) if (not vst[i])
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:487:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:494:	REP(k, n - 1)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:510:		REP(k, 3) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:518:	REP(k, n) imgs[k].load();
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:520:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:523:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:525:	REPD(i, mid - 1, 0) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:537:	REPD(i, mid - 2, 0)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:552:	REPL(k, start, end) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:559:	REP(k, len)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:566:	REPL(k, 1, len) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:578:	REPL(k, 1, len - 1)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:659:	REP(k, (int)images.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:690:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:708:	REP(i, n) imgs[i].load();
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:710:	REP(i, n) REPL(j, i+1, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:732:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:739:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:754:	REP(i, n) REP(j, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:843:	REP(i, NR_POINT_ON_EDGE) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:853:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:857:	REP(i, 4 * NR_POINT_ON_EDGE) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:942:  REP(i, 3) ret[i].mult(v[i]);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:954:  REP(i, 3) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1021:    REP(i, new_state.params.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1113:  REP(i, nr_img * NR_PARAM_PER_CAMERA) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1131:  REP(i, idx_added.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1132:    REP(p, NR_PARAM_PER_CAMERA) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1142:      REP(k, err1.num_terms())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1158:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1161:  REP(pair_idx, match_pairs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1229:      REP(i, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1237:      REP(i, 6) REP(j, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1243:      REP(i, 6) REPL(j, i, 6) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1265:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1277:  REP(i, cameras.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1318:	REP(k, nr_image) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1325:		REP(i, range.height()) REP(j, range.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1369:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1372:			REP(imgid, images.size())  {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1406:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1421:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1442:	REP(i, (int)images.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1549:  REP(i, n) REPL(j, i + 1, n) tasks.emplace_back(i, j);
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1556:  REP(k, (int)tasks.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1570:  REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1598:  REP(i, imgs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1615:    REPL(k, mid + 2, n)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1620:    REPD(k, mid - 2, 0)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1634:  REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1663:  REP(k, (int)imgs.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1672:    REP(i, feats[k].size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1713:	REP(i, (int)component.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1730:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1878:	REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1908:		REP(_, nr_match_used) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:1977:	REP(i, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:2089:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/Stitch_Print.cpp:2104:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:26:			REP(i, 9) data[i] = arr[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:32:			REP(i, 9) data[i] = p[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:47:		inline void operator += (const Homography& r) { REP(i, 9) data[i] += r.data[i]; }
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:49:		inline void mult(double r) { REP(i, 9) data[i] *= r; }
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:87:			REP(i, 3) ret.data[i * 3 + i] = 1;
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:139:			REP(i, 9) ret.ptr()[i] = data[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:152:			REP(i, 8) os << data[i] << " ";
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.hh:158:			REP(i, 9) is >> ret[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:26:	REP(k, nr_image) {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:33:		REP(i, range.height()) REP(j, range.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:77:		REP(i, target_size.y) REP(j, target_size.x) {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:80:			REP(imgid, images.size())  {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:114:	REP(i, target.rows()) REP(j, target.cols()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:129:	REP(i, target_size.y) REP(j, target_size.x) {
+./src_BRIEF_Rot_Scale_Inv/stitch/multiband.cc:150:	REP(i, (int)images.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/blender.cc:45:		REP(k, (int)images.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/blender.cc:66:		REP(i, target.height()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/blender.cc:69:			REP(j, target.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/warp.cc:34:	REP(i, mat.height()) REP(j, mat.width()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/warp.cc:49:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.hh:36:				REP(i, imgs.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:21:	REP(k, (int)images.size()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:52:		REP(i, wimg.rows()) REP(j, wimg.cols()) {
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:70:	REP(i, n) imgs[i].load();
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:72:	REP(i, n) REPL(j, i+1, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:94:		REP(i, 9) homo.ptr()[i] = m.homo[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:101:		REP(i, 9) invM.ptr()[i] = inv[i];
+./src_BRIEF_Rot_Scale_Inv/stitch/debug.cc:116:	REP(i, n) REP(j, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/match_info.hh:45:		REP(i, match_size) {
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher_image.cc:27:	REP(i, (int)component.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher_image.cc:44:	REP(i, CORNER_SAMPLE) REP(j, CORNER_SAMPLE)
+./src_BRIEF_Rot_Scale_Inv/stitch/camera.cc:73:	REP(i, n) REPL(j, i + 1, n) {
+./src_BRIEF_Rot_Scale_Inv/stitch/camera.cc:142:	REP(k, 9)
+./src_BRIEF_Rot_Scale_Inv/stitch/camera.cc:178:	REP(i, 3) r[i * 3] = normX(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/camera.cc:179:	REP(i, 3) r[i * 3 + 1] = normY(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/camera.cc:180:	REP(i, 3) r[i * 3 + 2] = normZ(i);
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:41:    REP(i, n) // hack focal
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:76:          REP(i, n) if (vst[i] && i != next) {
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:92:    REPL(i, 1, n) REP(j, i) {
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:115:  REP(i, n) REPL(j, i+1, n) 
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:129:    REP(i, n) if (i != from && !vst[i]) {
+./src_BRIEF_Rot_Scale_Inv/stitch/camera_estimator.cc:153:    REP(i, n) if (not vst[i])
+./src_BRIEF_Rot_Scale_Inv/stitch/stitcher.hh:57:				REP(i, imgs.size())
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:36:	REP(i, n) bundle.component[i].homo = Homography::I();
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:43:	REP(k, n - 1)
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:59:		REP(k, 3) {
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:67:	REP(k, n) imgs[k].load();
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:69:	REP(k, n) warper.warp(*imgs[k].img, keypoints[k]);
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:72:	REPL(k, mid + 1, n) bundle.component[k].homo = move(bestmat[k - mid - 1]);
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:74:	REPD(i, mid - 1, 0) {
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:86:	REPD(i, mid - 2, 0)
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:101:	REPL(k, start, end) {
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:108:	REP(k, len)
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:115:	REPL(k, 1, len) {
+./src_BRIEF_Rot_Scale_Inv/stitch/cylstitcher.cc:127:	REPL(k, 1, len - 1)
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.cc:65:	REP(i, NR_POINT_ON_EDGE) {
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.cc:75:	REP(i, 4 * NR_POINT_ON_EDGE)
+./src_BRIEF_Rot_Scale_Inv/stitch/homography.cc:79:	REP(i, 4 * NR_POINT_ON_EDGE) {

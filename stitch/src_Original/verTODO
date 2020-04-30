@@ -1,0 +1,70 @@
+./feature/matcher.cc:99:    trees.emplace_back(points, flann::KDTreeIndexParams(FLANN_NR_KDTREE));	// TODO param
+./feature/matcher.cc:119:  trees[id2].knnSearch(query, indices, dists, 2, flann::SearchParams(128));	// TODO param
+./feature/orientation.cc:68:	// TODO do we need this?
+./feature/gaussian.hh:29:		// TODO faster convolution
+./feature/gaussian.ori:28:		// TODO faster convolution
+./feature/gaussian.cc:18:	// TODO decide window size ?
+./main.cc:266:	CFG(LAZY_READ);	// TODO in cyl mode
+./main.cc:307:		//dist = sqr(dist);	// TODO you can change this to see different effect
+./lib/imgio.cc:92:// TODO a hack for the moment
+./lib/imgproc.cc:282:	// TODO MVG suggests that this is more stable, but I found it a little bit slower
+./lib/matrix.cc:17://TODO speedup at() to avoid channel mult
+./lib/config.cc:12:// TODO allow different types for a value. using template
+./lib/config.cc:16:	const static size_t BUFSIZE = 4096;		// TODO overflow
+./lib/kdtree.cc:78:	// TODO parameter
+./stitch/stitcher.cc:34:  // TODO choose a better starting point by MST use centrality
+./stitch/stitcher.cc:55:  // TODO automatically determine projection method even in naive mode
+./stitch/stitcher.cc:80:  inv.mult(1.0 / inv[8]);	// TODO more stable?
+./stitch/stitcher.cc:128:    continue; // TODO FIXME a->b, b->a
+./stitch/stitcher.cc:155:  // TODO bfs over pairwise to build bundle
+./stitch/incremental_bundle_adjuster.cc:131:  state.cameras.clear();		// TODO why do I need this
+./stitch/incremental_bundle_adjuster.cc:196:  // TODO which error func to use?
+./stitch/Stitch_Print.cprint:684:	// TODO omp
+./stitch/Stitch_Print.cprint:1007:  state.cameras.clear();		// TODO why do I need this
+./stitch/Stitch_Print.cprint:1072:  // TODO which error func to use?
+./stitch/Stitch_Print.cprint:1439:	GaussianBlur blurer(sqrt(level * 2 + 1.0) * 4);	// TODO size
+./stitch/Stitch_Print.cprint:1483:  // TODO choose a better starting point by MST use centrality
+./stitch/Stitch_Print.cprint:1504:  // TODO automatically determine projection method even in naive mode
+./stitch/Stitch_Print.cprint:1529:  inv.mult(1.0 / inv[8]);	// TODO more stable?
+./stitch/Stitch_Print.cprint:1577:    continue; // TODO FIXME a->b, b->a
+./stitch/Stitch_Print.cprint:1604:  // TODO bfs over pairwise to build bundle
+./stitch/Stitch_Print.cprint:1889:	// TODO more condidate set will require more ransac iterations
+./stitch/Stitch_Print.cprint:1939:		// TODO it seems like when camera distortion is severe,
+./stitch/Stitch_Print.cprint:2005:  // TODO shouldn't count undistinctive keypoints as keypoints. They should get filtered out earlier
+./stitch/Stitch_Print.cprint:2021:  // TODO guess if two images are identical
+./stitch/Stitch_Print.cprint:2103:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./stitch/transform_estimate.cc:52:	// TODO more condidate set will require more ransac iterations
+./stitch/transform_estimate.cc:102:		// TODO it seems like when camera distortion is severe,
+./stitch/transform_estimate.cc:168:  // TODO shouldn't count undistinctive keypoints as keypoints. They should get filtered out earlier
+./stitch/transform_estimate.cc:184:  // TODO guess if two images are identical
+./stitch/Stitch_Print.cpp:684:	// TODO omp
+./stitch/Stitch_Print.cpp:1007:  state.cameras.clear();		// TODO why do I need this
+./stitch/Stitch_Print.cpp:1072:  // TODO which error func to use?
+./stitch/Stitch_Print.cpp:1439:	GaussianBlur blurer(sqrt(level * 2 + 1.0) * 4);	// TODO size
+./stitch/Stitch_Print.cpp:1483:  // TODO choose a better starting point by MST use centrality
+./stitch/Stitch_Print.cpp:1504:  // TODO automatically determine projection method even in naive mode
+./stitch/Stitch_Print.cpp:1529:  inv.mult(1.0 / inv[8]);	// TODO more stable?
+./stitch/Stitch_Print.cpp:1577:    continue; // TODO FIXME a->b, b->a
+./stitch/Stitch_Print.cpp:1604:  // TODO bfs over pairwise to build bundle
+./stitch/Stitch_Print.cpp:1889:	// TODO more condidate set will require more ransac iterations
+./stitch/Stitch_Print.cpp:1939:		// TODO it seems like when camera distortion is severe,
+./stitch/Stitch_Print.cpp:2005:  // TODO shouldn't count undistinctive keypoints as keypoints. They should get filtered out earlier
+./stitch/Stitch_Print.cpp:2021:  // TODO guess if two images are identical
+./stitch/Stitch_Print.cpp:2103:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./stitch/multiband.cc:147:	GaussianBlur blurer(sqrt(level * 2 + 1.0) * 4);	// TODO size
+./stitch/warp.cc:49:	REP(i, shape.h) REP(j, shape.w) {			// TODO finally: only use rect corners
+./stitch/debug.cc:47:	// TODO omp
+./stitch/imageref.hh:19:  //ImageRef(const ImageRef& ) = delete;  // TODO make it work
+./stitch/camera.hh:11:// TODO might not need aspect any more
+./third-party/lodepng/lodepng.cc:412:/*TODO: this ignores potential out of memory errors*/
+./third-party/lodepng/lodepng.cc:952:  /*TODO: check for out of memory errors*/
+./third-party/lodepng/lodepng.cc:1353:  /*TODO: do this not only for zeros but for any repeated byte. However for PNG
+./third-party/lodepng/lodepng.cc:4127:      /*TODO: possible efficiency improvement: if in this reduced image the bits fit nicely in 1 scanline,
+./third-party/lodepng/lodepng.cc:4673:    /*TODO: check if this works according to the statement in the documentation: "The converter can convert
+./third-party/lodepng/lodepng.h:889:TODO:
+./third-party/pybind11/pytypes.h:411:// TODO: After the deprecated constructors are removed, this macro can be simplified by
+./third-party/flann/algorithms/kdtree_cuda_3d_index.h:177:     * TODO: return system or gpu RAM or both?
+./third-party/flann/algorithms/nn_index.h:249:            // TODO: check for distance type
+./third-party/flann/algorithms/kmeans_index.h:540:     * TODO: for 1-sized clusters don't store a cluster center (it's the same as the single cluster point)
+./third-party/flann/util/lsh_table.h:42:// TODO as soon as we use C++0x, use the code in USE_UNORDERED_MAP
+./third-party/flann/util/lsh_table.h:470:    // TODO compute mean and std

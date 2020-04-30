@@ -1,0 +1,57 @@
+./salidasec:261:  0.00      8.14     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv
+./salidasec:287:  0.00      8.14     0.00        1     0.00     4.14  pano::StitcherBase::calc_feature()
+./salidasec:379:                0.00    4.14       1/1           pano::StitcherBase::calc_feature() [3]
+./salidasec:389:[3]     50.8    0.00    4.14       1         pano::StitcherBase::calc_feature() [3]
+./salidasec:412:                0.00    3.94       5/5           pano::StitcherBase::calc_feature() [3]
+./salidasec:729:                0.15    0.05       5/5           pano::StitcherBase::calc_feature() [3]
+./salidasec:1468:                0.00    0.00       3/18          pano::StitcherBase::calc_feature() [3]
+./salidasec:1576:                0.00    0.00       1/6           pano::StitcherBase::calc_feature() [3]
+./salidasec:1648:                0.00    0.00       5/5           pano::StitcherBase::calc_feature() [3]
+./salidasec:1735:[274]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv [274]
+./salidasec:1880:                0.00    0.00       1/1           pano::StitcherBase::calc_feature() [3]
+./salidasec:1883:                0.00    0.00       1/1           pano::StitcherBase::calc_feature() [3]
+./salidasec:1993: [274] _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv (stitcherbase.cc) [120] Eigen::MapBase<Eigen::Block<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 0, -1, -1>, -1, 1, true>, -1, 1, false>, -1, 1, false>, 0>::MapBase(double*, long, long) [193] void Eigen::ColPivHouseholderQR<Eigen::Matrix<double, -1, -1, 0, -1, -1> >::_solve_impl<Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1, 0, -1, -1> >, Eigen::Map<Eigen::Matrix<double, -1, 1, 0, -1, 1> const, 0, Eigen::Stride<0, 0> >, 0>, Eigen::Matrix<double, -1, 1, 0, -1, 1> >(Eigen::Product<Eigen::Transpose<Eigen::Matrix<double, -1, -1, 0, -1, -1> >, Eigen::Map<Eigen::Matrix<double, -1, 1, 0, -1, 1> const, 0, Eigen::Stride<0, 0> >, 0> const&, Eigen::Matrix<double, -1, 1, 0, -1, 1>&) const
+./salidasec:2034:   [3] pano::StitcherBase::calc_feature() [83] Eigen::internal::general_matrix_vector_product<long, double, Eigen::internal::const_blas_data_mapper<double, long, 0>, 0, false, double, Eigen::internal::const_blas_data_mapper<double, long, 1>, false, 0>::run(long, long, Eigen::internal::const_blas_data_mapper<double, long, 0> const&, Eigen::internal::const_blas_data_mapper<double, long, 1> const&, double*, long, double) [258] void std::vector<pano::BlenderBase::ImageToAdd, std::allocator<pano::BlenderBase::ImageToAdd> >::_M_realloc_insert<pano::BlenderBase::ImageToAdd>(__gnu_cxx::__normal_iterator<pano::BlenderBase::ImageToAdd*, std::vector<pano::BlenderBase::ImageToAdd, std::allocator<pano::BlenderBase::ImageToAdd> > >, pano::BlenderBase::ImageToAdd&&)
+Binary file ./image-stitching_sec matches
+Binary file ./image-stitching matches
+./salidapar:113:  0.00     12.77     0.00      601     0.00     0.03  pano::StitcherBase::calc_feature()
+./salidapar:358:                0.00    0.00    1570/188393635     pano::StitcherBase::calc_feature() [71]
+./salidapar:415:                0.00    0.02     618/9207        pano::StitcherBase::calc_feature() [71]
+./salidapar:687:                0.00    0.02     600/601         pano::StitcherBase::calc_feature() [71]
+./salidapar:714:[71]     0.2    0.00    0.02     601         pano::StitcherBase::calc_feature() [71]
+./salidapar:739:                0.00    0.00       1/601         pano::StitcherBase::calc_feature() [71]
+./salidapar:1783:  [71] pano::StitcherBase::calc_feature() [19] Eigen::internal::qr_preconditioner_impl<Eigen::Matrix<double, -1, -1, 0, -1, -1>, 2, 1, true>::run(Eigen::JacobiSVD<Eigen::Matrix<double, -1, -1, 0, -1, -1>, 2>&, Eigen::Matrix<double, -1, -1, 0, -1, -1> const&) [212] std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, flann::any>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, flann::any> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, flann::any> > >::find(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+./stitch/stitcher.cc:33:  calc_feature();
+./stitch/Stitch_Print.cprint:473:	calc_feature();
+./stitch/Stitch_Print.cprint:1482:  calc_feature();
+./stitch/Stitch_Print.cprint:1656:void StitcherBase::calc_feature() {
+./stitch/Stitch_Print.cprint:1657:  GuardedTimer tm("calc_feature()");
+./stitch/stitcherbase.cc:9:void StitcherBase::calc_feature() 
+./stitch/stitcherbase.cc:11:  GuardedTimer tm("calc_feature()");
+./stitch/Stitch_Print.cpp:473:	calc_feature();
+./stitch/Stitch_Print.cpp:1482:  calc_feature();
+./stitch/Stitch_Print.cpp:1656:void StitcherBase::calc_feature() {
+./stitch/Stitch_Print.cpp:1657:  GuardedTimer tm("calc_feature()");
+./stitch/stitcherbase.hh:42:		void calc_feature();
+./stitch/cylstitcher.cc:21:	calc_feature();
+Binary file ./image-stitching_sec_nodebug matches
+Binary file ./imstpar matches
+Binary file ./image-stitching_par matches
+./salida:260:  0.00      8.29     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv
+./salida:286:  0.00      8.29     0.00        1     0.00     4.28  pano::StitcherBase::calc_feature()
+./salida:378:                0.00    4.28       1/1           pano::StitcherBase::calc_feature() [3]
+./salida:388:[3]     51.7    0.00    4.28       1         pano::StitcherBase::calc_feature() [3]
+./salida:411:                0.00    3.97       5/5           pano::StitcherBase::calc_feature() [3]
+./salida:629:                0.21    0.11       5/5           pano::StitcherBase::calc_feature() [3]
+./salida:1486:                0.00    0.00       3/18          pano::StitcherBase::calc_feature() [3]
+./salida:1592:                0.00    0.00       1/6           pano::StitcherBase::calc_feature() [3]
+./salida:1648:                0.00    0.00       5/5           pano::StitcherBase::calc_feature() [3]
+./salida:1735:[274]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv [274]
+./salida:1876:                0.00    0.00       1/1           pano::StitcherBase::calc_feature() [3]
+./salida:1879:                0.00    0.00       1/1           pano::StitcherBase::calc_feature() [3]
+./salida:1989: [274] _GLOBAL__sub_I__ZN4pano12StitcherBase12calc_featureEv (stitcherbase.cc) [117] Eigen::MapBase<Eigen::Block<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 0, -1, -1>, -1, -1, false>, -1, -1, false>, -1, 1, true>, 0>::MapBase(double*, long, long) [95] void Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double, -1, -1, 0, -1, -1>, 2> >::_solve_impl<Eigen::Matrix<double, -1, 1, 0, -1, 1>, Eigen::Matrix<double, -1, 1, 0, -1, 1> >(Eigen::Matrix<double, -1, 1, 0, -1, 1> const&, Eigen::Matrix<double, -1, 1, 0, -1, 1>&) const
+./salida:2029:   [3] pano::StitcherBase::calc_feature() [165] Eigen::internal::general_matrix_vector_product<long, double, Eigen::internal::const_blas_data_mapper<double, long, 0>, 0, false, double, Eigen::internal::const_blas_data_mapper<double, long, 1>, false, 0>::run(long, long, Eigen::internal::const_blas_data_mapper<double, long, 0> const&, Eigen::internal::const_blas_data_mapper<double, long, 1> const&, double*, long, double) [258] void std::vector<pano::BlenderBase::ImageToAdd, std::allocator<pano::BlenderBase::ImageToAdd> >::_M_realloc_insert<pano::BlenderBase::ImageToAdd>(__gnu_cxx::__normal_iterator<pano::BlenderBase::ImageToAdd*, std::vector<pano::BlenderBase::ImageToAdd, std::allocator<pano::BlenderBase::ImageToAdd> > >, pano::BlenderBase::ImageToAdd&&)
+Binary file ./obj/stitch/cylstitcher.o matches
+Binary file ./obj/stitch/stitcherbase.o matches
+Binary file ./obj/stitch/stitcher.o matches
+Binary file ./image-stitching_par_nodebug matches

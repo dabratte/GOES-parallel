@@ -1,0 +1,3 @@
+/home/gwolfmann/stitch/StitchIt/CMakeFiles/rebuild_cache.dir
+/home/gwolfmann/stitch/StitchIt/CMakeFiles/image-stitching.dir
+/home/gwolfmann/stitch/StitchIt/CMakeFiles/edit_cache.dir
